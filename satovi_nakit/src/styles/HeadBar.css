@@ -1,0 +1,14 @@
+.bar{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar p{
+    margin: 0px;
+}

@@ -1,0 +1,24 @@
+/* Hero.css */
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .brands img {
+    flex: 0 0 calc(25% - 10px); /* Each image takes up to 25% of the container width with some margin */
+  }
+  
+  @media (max-width: 1200px) {
+    .brands img {
+      flex: 0 0 calc(25% - 10px); /* Ensure four images per row on smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .brands img {
+      flex: 0 0 calc(50% - 10px); /* Ensure two images per row on smaller screens */
+    }
+  }
+  
