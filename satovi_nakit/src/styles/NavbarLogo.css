@@ -48,7 +48,7 @@
 }
 
 .burger-menu{
-    visibility: collapse;
+    display: none;
 }
 
 @media (max-width: 1180px) {
@@ -83,7 +83,7 @@
     }
 
     .burger-menu {
-        visibility: visible;
+        display: block;
         position: absolute;
         top:80px;
         right: 30px;

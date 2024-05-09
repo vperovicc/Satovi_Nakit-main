@@ -2,6 +2,7 @@
     width: 80%;
     height: auto;
     margin: 0px;
+    cursor: pointer;
 }
 
 @media (max-width: 1920px) {

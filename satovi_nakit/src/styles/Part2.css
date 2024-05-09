@@ -1,0 +1,320 @@
+
+.container2{
+    display: flex;
+    font-family: "Montserrat",sans-serif;
+    margin-top: 50px;
+}
+
+.container2 img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.description2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text2{
+    margin:5px
+}
+
+.title2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: -25px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.row1_part{
+    width: 50%;
+}
+
+.row2_part{
+    width: 50%;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 2560px) {
+    .title2{
+        font-size: 36px;
+    }
+
+    .row1_part h3{
+        font-size: 28px;
+    }
+
+    .row2_part h3{
+        font-size: 28px;
+    }
+
+    .row1_part p{
+        font-size: 24px;
+    }
+
+    .row2_part p{
+        font-size: 24px;
+    }
+
+    .description2{
+        width: 50%;
+    }
+}
+
+@media (max-width: 2150px) {
+    .title2{
+        font-size: 30px;
+    }
+
+    .row1_part h3{
+        font-size: 26px;
+    }
+
+    .row2_part h3{
+        font-size: 26px;
+    }
+
+    .row1_part p{
+        font-size: 20px;
+    }
+
+    .row2_part p{
+        font-size: 20px;
+    }
+
+    .description2{
+        width: 50%;
+    }
+    
+    .container2 img{
+        height: 700px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .title2{
+        font-size: 28px;
+    }
+
+    .row1_part h3{
+        font-size: 22px;
+    }
+
+    .row2_part h3{
+        font-size: 22px;
+    }
+
+    .row1_part p{
+        font-size: 18px;
+    }
+
+    .row2_part p{
+        font-size: 18px;
+    }
+
+    .description2{
+        width: 50%;
+    }
+    
+    .container2 img{
+        height: 700px;
+    }
+}
+
+@media (max-width: 1580px) {
+    .title2{
+        font-size: 28px;
+    }
+
+    .row1_part h3{
+        font-size: 20px;
+    }
+
+    .row2_part h3{
+        font-size: 20px;
+    }
+
+    .row1_part p{
+        font-size: 16px;
+    }
+
+    .row2_part p{
+        font-size: 16px;
+    }
+
+    .description2{
+        width: 50%;
+    }
+    
+    .container2 img{
+        height: 550px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .title2{
+        font-size: 26px;
+    }
+
+    .row1_part h3{
+        font-size: 18px;
+    }
+
+    .row2_part h3{
+        font-size: 18px;
+    }
+
+    .row1_part p{
+        font-size: 14px;
+    }
+
+    .row2_part p{
+        font-size: 14px;
+    }
+
+    .description2{
+        width: 50%;
+    }
+    
+    .container2 img{
+        height: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .title2{
+        font-size: 18px;
+    }
+
+    .row1_part h3{
+        font-size: 16px;
+    }
+
+    .row2_part h3{
+        font-size: 16px;
+    }
+
+    .row1_part p{
+        font-size: 12px;
+    }
+
+    .row2_part p{
+        font-size: 12px;
+    }
+
+    .description2{
+        width: 50%;
+    }
+    
+    .container2 img{
+        height: 500px;
+    }
+}
+
+@media (max-width: 670px) {
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container2 img{
+        width: 100%;
+        max-height: 250px;
+    }
+
+    .description2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title2{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .title2 p{
+        display: flex;
+        justify-content: center;
+        font-size: 26px
+    }
+
+    .text2{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row1_part, .row2_part {
+    text-align: center; /* Center align text */
+    width: 90%;
+    }
+
+    .row1_part h3,.row2_part h3{
+        font-size: 20px;
+    }
+    
+    .row1_part p,.row2_part p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 530px) {
+    .title2 p{
+        font-size: 18px;
+    }
+
+    .row1_part h3,.row2_part h3{
+        font-size: 16px;
+    }
+    
+    .row1_part p,.row2_part p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 410px) {
+    .title2 p{
+        font-size: 16px;
+    }
+
+    .row1_part h3,.row2_part h3{
+        font-size: 14px;
+    }
+    
+    .row1_part p,.row2_part p{
+        font-size: 12px;
+    }
+
+    .container2 img{
+        height: 150px;
+    }
+}
