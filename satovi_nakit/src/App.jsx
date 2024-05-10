@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import NavbarLogo from './components/NavbarLogo'
 import Part1 from './components/Part1'
 import Part2 from './components/Part2'
+import Pandora from './components/Pandora'
+import Guess from './components/Guess'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Hero/>
       <Part1/>
       <Part2/>
+      <Pandora/>
+      <Guess/>
     </div>
   )
 }
