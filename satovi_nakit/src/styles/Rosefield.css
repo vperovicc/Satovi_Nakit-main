@@ -1,0 +1,247 @@
+.contain_rosefield{
+    margin-top: 50px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.linelogo_rosefield{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.line_rosefield{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content_rosefield{
+    display: flex;
+    width: 100%;
+}
+
+.rosefield_pic1{
+    width: 20%;
+}
+
+.rosefield_pic2{
+    width: 30%;
+    margin-right: 50px;
+}
+
+.text_rosefield{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text_rosefield_p1{
+    text-align: end;
+    font-size: 32px;
+}
+
+.text_rosefield_p2{
+    text-align: start;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.text_rosefield_p3{
+    text-align: start;
+    font-size: 32px;
+}
+
+@media (max-width:2150px){
+    .text_rosefield_p1{
+        font-size: 28px;
+    }
+    
+    .text_rosefield_p2{
+        font-size: 38px;
+        font-weight: 600;
+    }
+    
+    .text_rosefield_p3{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1920px){
+
+    .linelogo_rosefield img{
+        width: 350px;
+    }
+    .text_rosefield_p1{
+        font-size: 24px;
+    }
+    
+    .text_rosefield_p2{
+        font-size: 34px;
+        font-weight: 600;
+    }
+    
+    .text_rosefield_p3{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:1580px){
+
+    .linelogo_rosefield{
+        margin-bottom: 20px;
+    }
+
+    .linelogo_rosefield img{
+        width: 300px;
+    }
+
+    .text_rosefield_p1{
+        font-size: 20px;
+    }
+    
+    .text_rosefield_p2{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    
+    .text_rosefield_p3{
+        font-size: 20px;
+    }
+
+    .text_rosefield{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:1300px){
+
+    .line_rosefield{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .linelogo_rosefield img{
+        width: 250px;
+    }
+
+    .text_rosefield_p1{
+        font-size: 16px;
+    }
+    
+    .text_rosefield_p2{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    
+    .text_rosefield_p3{
+        font-size: 16px;
+    }
+
+    .rosefield_pic2{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:1000px){
+
+    .linelogo_rosefield img{
+        width: 200px;
+    }
+
+    .text_rosefield_p1{
+        font-size: 14px;
+    }
+    
+    .text_rosefield_p2{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    .text_rosefield_p3{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:770px){
+
+    .linelogo_rosefield img{
+        width: 150px;
+    }
+
+    .text_rosefield_p1{
+        font-size: 10px;
+    }
+    
+    .text_rosefield_p2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .text_rosefield_p3{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:670px){
+    .linelogo_rosefield{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .line_rosefield{
+        width: 90%;
+    }
+
+    .content_rosefield{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rosefield_pic1{
+        width: 90%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .text_rosefield_p1{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .text_rosefield_p2{
+        display: none;
+        visibility: collapse;
+    }
+
+    .text_rosefield_p3{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .text_rosefield{
+        width: 100%;
+        align-items: center;
+    }
+
+    .rosefield_pic2{
+        width: 90%;
+        object-fit: cover;
+        height: 250px;
+        margin: 0px;
+    }
+}
+
+@media (max-width:550px){
+
+}
+
+

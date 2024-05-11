@@ -3,6 +3,9 @@
 import React, { useState } from 'react';
 import '../styles/NavbarLogo.css';
 import ArrowLeft from '../assets/strelica.svg';
+import Logo from '../assets/Logo.png';
+import ArrowRight from '../assets/strelica2.svg';
+import Burger from '../assets/burger-icon.svg';
 
 const NavbarLogo = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,15 +21,15 @@ const NavbarLogo = () => {
         <img src={ArrowLeft} alt="ArrowLeft" />
       </div>
       <div className='navCenter'>
-        <img src='../src/assets/Logo.png' width={150} alt="Logo" />
+        <img src={Logo} width={150} alt="Logo" />
       </div>
       <div className='navRight'>
-        <img src='../src/assets/strelica2.svg' alt="ArrowRight" />
+        <img src={ArrowRight} alt="ArrowRight" />
         <div className='buttonBlack'><p>Nakit</p></div>
       </div>
       <div className='burger-menu' onClick={toggleMenu}>
         <div className='burger-menu-icon'>
-          <img src='../src/assets/burger-icon.svg' alt="Burger Menu" />
+          <img src={Burger} alt="Burger Menu" />
         </div>
         <div className={`burger-menu-items ${showMenu ? 'show' : ''}`}>
           <div className='burger-menu-item'>Satovi</div>

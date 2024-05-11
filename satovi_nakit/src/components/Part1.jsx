@@ -1,11 +1,12 @@
 import React from 'react'
 import "../styles/Part1.css"
+import TissotBanner from '../assets/tissot_pic.png'
 
 const Part1 = () => {
   return (
     <div className='cont'>
         <h1>UPOZNAJTE NASU STRAST ZA SATOVIMA</h1>
-        <img src='../src/assets/tissot_pic.png' />
+        <img src={TissotBanner} />
 
         <div className='text'>
             <div className='title'>

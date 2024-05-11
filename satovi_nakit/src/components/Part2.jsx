@@ -1,10 +1,11 @@
 import React from 'react'
 import '../styles/Part2.css'
+import Gshocks from '../assets/gshocks.png'
 
 const Part2 = () => {
   return (
     <div className='container2'>
-        <img src='../src/assets/gshocks.png' />
+        <img src={Gshocks} />
         <div className='description2'>
             <div className='title2'>
                 <p>NASE ISKUSTVO</p>

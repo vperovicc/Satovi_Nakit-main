@@ -182,13 +182,13 @@
     }
     .linelogo_guess{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-right: 0px;
     }
 
     .line_guess{
-        display: none;
-        visibility: collapse;
+        width: 90%;
+        margin: 0px;
     }
 
     .linelogo_guess img{

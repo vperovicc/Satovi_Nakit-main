@@ -7,6 +7,7 @@ import Part1 from './components/Part1'
 import Part2 from './components/Part2'
 import Pandora from './components/Pandora'
 import Guess from './components/Guess'
+import Rosefield from './components/Rosefield'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Part2/>
       <Pandora/>
       <Guess/>
+      <Rosefield/>
     </div>
   )
 }
