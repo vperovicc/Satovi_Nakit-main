@@ -1,0 +1,173 @@
+.container_info{
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.text_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 32px;
+    align-items: center;
+}
+
+.logo_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_info p{
+    margin: 0px;
+}
+
+.time_info{
+    display: flex;
+}
+
+.open{
+    margin-left: 50px;
+}
+
+.time_info p{
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.maps_info{
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.maps_info img{
+    width: 900px;
+}
+
+@media (max-width:2150px){
+    .container_info p{
+        font-size: 28px;
+    }
+
+    .maps_info img{
+        width: 700px;
+    }
+
+    .logo_info img{
+        width: 200px;
+    }
+}
+
+@media (max-width:1920px){
+    .container_info p{
+        font-size: 24px;
+    }
+
+    .maps_info img{
+        width: 570px;
+    }
+
+    .logo_info img{
+        width: 150px;
+    }
+}
+
+@media (max-width:1580px){
+    .container_info p{
+        font-size: 20px;
+    }
+
+    .maps_info img{
+        width: 450px;
+    }
+
+    .logo_info img{
+        width: 130px;
+    }
+
+    .time_info p{
+        margin: 0px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:1300px){
+    .container_info p{
+        font-size: 16px;
+    }
+
+    .maps_info img{
+        width: 350px;
+    }
+
+    .logo_info img{
+        width: 100px;
+    }
+}
+
+@media (max-width:1000px){
+    .container_info p{
+        font-size: 14px;
+    }
+
+    .maps_info img{
+        width: 270px;
+    }
+
+    .logo_info img{
+        width: 100px;
+    }
+}
+
+@media (max-width:770px){
+    .container_info p{
+        font-size: 10px;
+    }
+
+    .maps_info img{
+        width: 200px;
+    }
+
+    .logo_info img{
+        width: 100px;
+    }
+}
+
+@media (max-width:670px){
+    .container_info p{
+        font-size: 16px;
+    }
+
+    .maps_info img{
+        width: 300px;
+    }
+
+    .logo_info img{
+        width: 100px;
+    }
+
+    .container_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .maps_info{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:550px){
+    .container_info p{
+        font-size: 14px;
+    }
+}
+
+
+
+

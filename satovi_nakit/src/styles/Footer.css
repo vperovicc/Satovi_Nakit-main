@@ -1,0 +1,415 @@
+.container_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+}
+
+.strip_line{
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.strip_footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.strip{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.strip p{
+    margin-left: 10px;
+}
+
+.line_footer{
+    background-color: white;
+    width: 90%;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.copyright{
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.main_footer{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidetext_footer{
+    width: 500px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.maintext_footer{
+    font-size: 170px;
+    text-align: center;
+    width: 1700px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.linksinfo_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.insta_footer{
+    border: 5px solid white;
+    height: fit-content;
+    width: 500px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.insta_footer p{
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.stuff_footer img{
+    position: absolute;
+    width: 300px;
+    top: 140px;
+    left: 45%;
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
+@media (max-width:1920px){
+    .copyright{
+        font-size: 24px;
+    }
+
+    .strip p{
+        font-size: 24px;
+    }
+
+    .main_footer{
+        margin-top: 20px;
+    }
+
+    .sidetext_footer{
+        font-size: 20px;
+    }
+
+    .maintext_footer{
+        font-size: 120px;
+        width: fit-content;
+    }
+
+    .insta_footer{
+        width: 400px;
+        height: fit-content;
+        margin-right: 90px;
+    }
+
+    .insta_footer p{
+        margin: 20px;
+    }
+
+    .stuff_footer img{
+        width: 250px;
+        top: 135px
+    }
+
+    .line_footer{
+        margin-top: 40px;
+    }
+
+    .linksinfo_footer{
+        margin: 0px;
+    }
+}
+
+@media (max-width:1580px){
+    .copyright{
+        font-size: 20px;
+    }
+
+    .strip p{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .strip img{
+        width: 50px;
+    }
+
+    .main_footer{
+        margin-top: 10px;
+    }
+
+    .sidetext_footer{
+        font-size: 18px;
+    }
+
+    .maintext_footer{
+        font-size: 120px;
+        width: fit-content;
+    }
+
+    .insta_footer{
+        width: 350px;
+        height: fit-content;
+        margin-right: 120px;
+    }
+
+    .insta_footer p{
+        margin: 20px;
+        font-size: 30px;
+    }
+
+    .stuff_footer img{
+        width: 220px;
+        top: 120px
+    }
+
+    .line_footer{
+        margin-top: 40px;
+    }
+
+    .linksinfo_footer{
+        margin: 0px;
+    }
+}
+
+@media (max-width:1300px){
+    .copyright{
+        font-size: 18px;
+    }
+
+    .strip p{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .strip img{
+        width: 40px;
+    }
+
+    .main_footer{
+        margin-top: 10px;
+    }
+
+    .sidetext_footer{
+        font-size: 16px;
+        width: 360px;
+    }
+
+    .maintext_footer{
+        font-size: 100px;
+        width: fit-content;
+    }
+
+    .insta_footer{
+        width: 250px;
+        height: fit-content;
+        margin-right: 70px;
+    }
+
+    .insta_footer p{
+        margin: 20px;
+        font-size: 24px;
+    }
+
+    .stuff_footer img{
+        width: 190px;
+        top: 100px
+    }
+
+    .line_footer{
+        margin-top: 40px;
+    }
+
+    .linksinfo_footer{
+        margin: 0px;
+    }
+}
+
+@media (max-width:1000px){
+    .copyright{
+        font-size: 16px;
+    }
+
+    .strip p{
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .strip img{
+        width: 35px;
+    }
+
+    .main_footer{
+        margin-top: 10px;
+    }
+
+    .sidetext_footer{
+        font-size: 12px;
+        width: 300px;
+        margin-right: 60px;
+    }
+
+    .maintext_footer{
+        font-size: 80px;
+        width: fit-content;
+    }
+
+    .insta_footer{
+        width: 220px;
+        height: fit-content;
+        margin-right: 60px;
+        border: 3px solid white;
+    }
+
+    .insta_footer p{
+        margin: 15px;
+        font-size: 20px;
+    }
+
+    .stuff_footer img{
+        width: 150px;
+        top: 100px
+    }
+
+    .line_footer{
+        margin-top: 30px;
+    }
+
+    .linksinfo_footer{
+        margin: 0px;
+    }
+}
+
+@media (max-width:770px){
+    .copyright{
+        font-size: 12px;
+    }
+
+    .strip p{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .strip img{
+        width: 30px;
+    }
+
+    .main_footer{
+        margin-top: 10px;
+    }
+
+    .sidetext_footer{
+        font-size: 10px;
+        width: 250px;
+        margin-right: 100px;
+    }
+
+    .maintext_footer{
+        font-size: 60px;
+        width: fit-content;
+    }
+
+    .insta_footer{
+        width: 200px;
+        height: fit-content;
+        border: 3px solid white;
+        margin-left: -50px;
+    }
+
+    .insta_footer p{
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .stuff_footer img{
+        width: 110px;
+        top: 90px;
+        left: 44%;
+    }
+
+    .line_footer{
+        margin-top: 30px;
+    }
+
+    .linksinfo_footer{
+        margin: 0px;
+    }
+}
+
+@media (max-width:670px){
+    .strip p{
+        font-size: 14px;
+    }
+
+    .strip img{
+        width: 25px;
+    }
+
+    .stuff_footer img{
+        display: none;
+        visibility: collapse;
+    }
+
+    .linksinfo_footer{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        justify-content: center;
+    }
+
+    .sidetext_footer{
+        margin: 0px;
+        text-align: center;
+        width: 320px;
+        margin-top: 20px;
+    }
+
+    .maintext_footer{
+        font-size: 36px;
+    }
+
+    .insta_footer{
+        margin: 0px;
+        margin-top: 20px;
+        width: min-content;
+    }
+}
+
+@media (max-width:550px)
+{
+    .strip p {
+        font-size: 8px;
+        margin: 0px;
+        margin-left: 5px;
+    }
+
+    .strip img{
+        width: 12px;
+    }
+}

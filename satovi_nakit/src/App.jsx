@@ -8,20 +8,24 @@ import Part2 from './components/Part2'
 import Pandora from './components/Pandora'
 import Guess from './components/Guess'
 import Rosefield from './components/Rosefield'
+import Info from './components/Info'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div>
-      <HeadBar/>
-      <NavbarLogo/>
-      <Navbar/>
-      <Hero/>
-      <Part1/>
-      <Part2/>
-      <Pandora/>
-      <Guess/>
-      <Rosefield/>
-    </div>
+      <div>
+        <HeadBar/>
+        <NavbarLogo/>
+        <Navbar/>
+        <Hero/>
+        <Part1/>
+        <Part2/>
+        <Pandora/>
+        <Guess/>
+        <Rosefield/>
+        <Info/>
+        <Footer/>
+      </div>
   )
 }
 

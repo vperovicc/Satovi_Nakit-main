@@ -6,6 +6,7 @@ import ArrowLeft from '../assets/strelica.svg';
 import Logo from '../assets/Logo.png';
 import ArrowRight from '../assets/strelica2.svg';
 import Burger from '../assets/burger-icon.svg';
+import {Link} from 'react-router-dom';
 
 const NavbarLogo = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,10 +15,12 @@ const NavbarLogo = () => {
     setShowMenu(!showMenu);
   };
 
+
+
   return (
     <div className='nav'>
       <div className='navLeft'>
-        <div className='buttonBlack'><p>Satovi</p></div>
+          <div className='buttonBlack'><p>Satovi</p></div>
         <img src={ArrowLeft} alt="ArrowLeft" />
       </div>
       <div className='navCenter'>

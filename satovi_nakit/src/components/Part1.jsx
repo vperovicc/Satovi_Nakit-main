@@ -4,7 +4,7 @@ import TissotBanner from '../assets/tissot_pic.png'
 
 const Part1 = () => {
   return (
-    <div className='cont'>
+    <div className='cont' id='info'>
         <h1>UPOZNAJTE NASU STRAST ZA SATOVIMA</h1>
         <img src={TissotBanner} />
 

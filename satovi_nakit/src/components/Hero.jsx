@@ -12,7 +12,7 @@ import Fossil from '../assets/fossil.png'
 
 const Hero = () => {
   return (
-    <div className='brands'>
+    <div id='starter' className='brands'>
         <BrandBox imageUrl={Casio}/>
         <BrandBox imageUrl={Tissot}/>
         <BrandBox imageUrl={Armani} />
