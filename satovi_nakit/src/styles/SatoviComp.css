@@ -1,0 +1,121 @@
+.container_satovi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.container_satovi h1{
+    font-size: 48px;
+}
+
+.line_satovi{
+    background-color: black;
+    width: 90%;
+    height: 1px;
+}
+
+.stuff_satovi{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.stuff_satovi img{
+    width: 30%;
+    object-fit: cover;
+}
+
+.brands_satovi{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 42px;
+    font-weight: 600;
+    align-items: center;
+}
+
+@media (max-width:2150px){
+    .brands_satovi{
+        font-size: 36px;
+    }
+}
+
+@media (max-width:1920px){
+    .container_satovi h1{
+        font-size: 42px;
+    }
+
+    .brands_satovi{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:1580px){
+    .brands_satovi{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1300px){
+
+    .container_satovi h1{
+        font-size: 36px;
+    }
+
+    .brands_satovi{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:1000px){
+
+    .stuff_satovi{
+        margin-top: 10px;
+    }
+
+    .container_satovi h1{
+        font-size: 32px;
+    }
+
+    .brands_satovi{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:770px){
+
+    .container_satovi h1{
+        font-size: 26px;
+    }
+    .brands_satovi{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:670px){
+
+    .stuff_satovi{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .stuff_satovi img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .brands_satovi{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .brands_p{
+        margin: 0px;
+        width: 100%;
+        font-size: 20px;
+    }
+}

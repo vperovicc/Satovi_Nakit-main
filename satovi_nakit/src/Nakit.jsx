@@ -1,21 +1,20 @@
 import React from 'react'
-import Footer from './components/Footer'
+import NakitComp from './components/NakitComp'
 import Info from './components/Info'
-import Hand from './assets/watch_hand.png'
 import HeadBar from './components/HeadBar'
 import NavbarLogo from './components/NavbarLogo'
-import SatoviComp from './components/SatoviComp'
+import Footer from './components/Footer'
 
-const Satovi = () => {
+const Nakit = () => {
   return (
     <div>
         <HeadBar/>
         <NavbarLogo/>
-        <SatoviComp/>
+        <NakitComp/>
         <Info/>
         <Footer/>
     </div>
   )
 }
 
-export default Satovi
+export default Nakit
