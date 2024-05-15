@@ -20,23 +20,23 @@ const NavbarLogo = () => {
   return (
     <div className='nav'>
       <div className='navLeft'>
-          <div className='buttonBlack'><p>Satovi</p></div>
+          <Link to='/satovi' className='linker'><div className='buttonBlack'><p>Satovi</p></div></Link>
         <img src={ArrowLeft} alt="ArrowLeft" />
       </div>
       <div className='navCenter'>
-        <img src={Logo} width={150} alt="Logo" />
+       <Link to='/'><img src={Logo} width={150} alt="Logo" /></Link> 
       </div>
       <div className='navRight'>
         <img src={ArrowRight} alt="ArrowRight" />
-        <div className='buttonBlack'><p>Nakit</p></div>
+        <Link to='/nakit' className='linker'><div className='buttonBlack'><p>Nakit</p></div></Link>
       </div>
       <div className='burger-menu' onClick={toggleMenu}>
         <div className='burger-menu-icon'>
           <img src={Burger} alt="Burger Menu" />
         </div>
         <div className={`burger-menu-items ${showMenu ? 'show' : ''}`}>
-          <div className='burger-menu-item'>Satovi</div>
-          <div className='burger-menu-item'>Nakit</div>
+        <Link to='/satovi' className='linker'><div className='burger-menu-item'>Satovi</div></Link>
+        <Link to='/nakit' className='linker'><div className='burger-menu-item'>Nakit</div></Link>
         </div>
       </div>
     </div>

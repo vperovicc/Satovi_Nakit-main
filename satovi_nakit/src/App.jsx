@@ -1,30 +1,20 @@
 import React from 'react'
-import HeadBar from '../src/components/HeadBar'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import NavbarLogo from './components/NavbarLogo'
-import Part1 from './components/Part1'
-import Part2 from './components/Part2'
-import Pandora from './components/Pandora'
-import Guess from './components/Guess'
-import Rosefield from './components/Rosefield'
-import Info from './components/Info'
-import Footer from './components/Footer'
+import Home from './pages/Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Satovi from './pages/Satovi'
+import Nakit from './pages/Nakit'
 
 const App = () => {
   return (
       <div>
-        <HeadBar/>
-        <NavbarLogo/>
-        <Navbar/>
-        <Hero/>
-        <Part1/>
-        <Part2/>
-        <Pandora/>
-        <Guess/>
-        <Rosefield/>
-        <Info/>
-        <Footer/>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Home/>} />
+            <Route path='/' element={<Home/>} />
+            <Route path='/satovi' element={<Satovi/>} />
+            <Route path='/nakit' element={<Nakit/>} />
+          </Routes>
+        </BrowserRouter>
       </div>
   )
 }

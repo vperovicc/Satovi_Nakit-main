@@ -12,6 +12,10 @@
     display: flex;
 }
 
+.linker{
+  text-decoration: none;
+}
+
 .buttonBlack{
     background-color: #00A3FF;
     width: 180px;
