@@ -1,0 +1,134 @@
+.container_complexBrand{
+    font-family: 'Montserrat',sans-serif;
+}
+
+.container_complexBrand p{
+    font-weight: 600;
+    font-size: 52px;
+    margin: 0px;
+    margin-left: 5%;
+}
+
+.content_complexBrand{
+    display: flex;
+    margin-top: 50px;
+}
+
+.content_complexBrand p{
+    font-weight: 100;
+    width: 55%;
+    font-size: 36px;
+}
+
+.content_complexBrand img{
+    width: 35%;
+    display: flex;
+    margin-left: auto;
+}
+
+@media (max-width:2150px){
+
+    .content_complexBrand p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1920px){
+
+    .content_complexBrand p{
+        font-size: 26px;
+    }
+}
+
+@media (max-width:1580px){
+
+    .content_complexBrand{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .content_complexBrand p{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:1300px){
+
+    .container_complexBrand p{
+        font-size: 42px;
+    }
+
+    .content_complexBrand p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:1000px){
+
+    
+    .container_complexBrand p{
+        font-size: 34px;
+    }
+
+
+    .content_complexBrand p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:770px){
+
+    
+    .container_complexBrand p{
+        font-size: 28px;
+    }
+
+
+    .content_complexBrand p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:670px){
+    .content_complexBrand{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_complexBrand p{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .content_complexBrand img{
+        margin: 0px;
+        width: 90%;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+
+    .content_complexBrand p{
+        margin: 0px;
+        width: 90%;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+@media (max-width:550px){
+    .container_complexBrand p{
+        font-size: 24px;
+    }
+
+    .content_complexBrand p{
+        font-size: 12px;
+    }
+
+    .content_complexBrand img{
+        height: 150px;
+    }
+}

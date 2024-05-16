@@ -1,5 +1,5 @@
 .brandImg{
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0px;
     cursor: pointer;
@@ -7,14 +7,7 @@
 
 @media (max-width: 1920px) {
     .brandImg{
-        width: 20%;
-        height: auto;
-    }
-}
-
-@media (max-width:992px){
-    .brandImg{
-        width: 100px;
+        width: 100%;
         height: auto;
     }
 }

@@ -9,18 +9,19 @@ import MicKors from '../assets/michealkors.png'
 import Boss from '../assets/boss.png'
 import Edifice from '../assets/edifice.png'
 import Fossil from '../assets/fossil.png'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
     <div id='starter' className='brands'>
-        <BrandBox imageUrl={Casio}/>
-        <BrandBox imageUrl={Tissot}/>
-        <BrandBox imageUrl={Armani} />
-        <BrandBox imageUrl={Gshock} />
-        <BrandBox imageUrl={MicKors} />
-        <BrandBox imageUrl={Boss} />
-        <BrandBox imageUrl={Edifice} />
-        <BrandBox imageUrl={Fossil} />
+       <Link to='/casio'><BrandBox imageUrl={Casio}/></Link> 
+       <Link to='/tissot'><BrandBox imageUrl={Tissot}/></Link> 
+       <Link to='/armani'><BrandBox imageUrl={Armani}/></Link> 
+       <Link to='/gshock'><BrandBox imageUrl={Gshock}/></Link> 
+       <Link to='/kors'><BrandBox imageUrl={MicKors}/></Link> 
+       <Link to='/boss'><BrandBox imageUrl={Boss}/></Link> 
+       <Link to='/edifice'><BrandBox imageUrl={Edifice}/></Link> 
+       <Link to='/fossil'><BrandBox imageUrl={Fossil}/></Link> 
     </div>
   )
 }
